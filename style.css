@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+} 
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000;
+  padding: 12em 18em 2em;
+}
+
+.column-center h1 {
+  margin-bottom: 1rem;
+  font-size: 10rem; 
+  color: aliceblue; 
+  border-color: #000;
+} 
+
+.column-center h2 {
+  margin-bottom: 1rem;
+  font-size: 5rem; 
+  color: aliceblue; 
+} 
+
+.other-center h1 {
+  margin-bottom: 1rem;
+  font-size: 4rem; 
+  color: #000; 
+} 
+
+.other-center h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem; 
+  color: #000; 
+} 
+
+.other-center p {
+  margin-bottom: 1rem;
+  font-size: 1rem; 
+  color: #000; 
+} 
+
+.lore-container { 
+  margin-left: 30px; 
+  margin-right: 30px; 
+  margin-top: 30px;
+}
+
+.home-buttons { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000;
+  padding: 2px 18em 2em;
+} 
+
+.lore-buttons { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000; 
+  margin-top: 50px;
+  padding: 2px 18em 2em;
+} 
+
+.home-buttons .homebtn { 
+  width: 150px;
+  height: 50px;
+  border-color: #17202a;
+  text-align: center; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 8px; 
+  margin-top: 2px; 
+  margin-left: 8px;
+  margin-right: 8px;
+  border: 1px solid #3498db;
+  background-color: transparent; 
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+  color: aliceblue; 
+  line-height: 50px; 
+} 
+
+.lore-buttons .homebtn { 
+  width: 150px;
+  height: 40px;
+  border-color: #17202a;
+  text-align: center; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 8px; 
+  margin-top: 80px; 
+  margin-left: 16px;
+  margin-right: 16px;
+  border: 1px #000;
+  background-color: transparent; 
+  color: #000; 
+} 
+ul { 
+  margin-left: 30px; 
+  margin-right: 30px; 
+  margin-bottom: 20px;
+} 
+
+table, th, td {
+  border: 1px solid;
+} 
+
+table { 
+  margin-left: 30px; 
+  margin-right: 30px; 
+  margin-top: 50px;
+  width: 90%;
+} 
+
+th {
+  height: 70px;
+} 
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 250px;
+  overflow: hidden; 
+} 
+
+div.gallery:hover {
+  transform: scale(1.05); 
+  transition: transform 0.3s ease-in-out;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#question {
+  background-color: white; 
+  width: 33%;
+}
+
